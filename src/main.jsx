@@ -14,6 +14,8 @@ import Home from "./pages/Home";
 import Policy from "./pages/Policy";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
+import Contato from "./pages/Contato";
+import SobreNos from "./pages/SobreNos";
 
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
   {
     path: "politica",
     element: <Policy />,
+  },
+  {
+    path: "contato",
+    element: <Contato />,
+  },
+  {
+    path: "sobre-nos",
+    element: <SobreNos />,
   },
   {
     path: "termos",

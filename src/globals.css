@@ -186,3 +186,11 @@ body {
     width: 50vw;
   }
 }
+
+.div_teste {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
