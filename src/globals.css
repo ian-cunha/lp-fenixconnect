@@ -188,7 +188,6 @@ body {
 }
 
 .div_teste {
-  border-radius: 20px;
   margin: 24px;
   margin-top: 100px;
   text-align: center;
@@ -196,4 +195,11 @@ body {
   align-items: center;
   justify-content: center;
   /*height: 100vh;*/
+}
+
+.div_contato {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
