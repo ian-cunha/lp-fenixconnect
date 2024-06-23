@@ -14,18 +14,26 @@ const Footer = () => {
         <div className="col-sm-3 m-1">
           <h5 className="text-light">Contatos</h5>
           <p className="text-light m-0 mt-3">+55 (81) 98608-9100</p>
-          <p className="text-light m-0 mb-3">contato@fenixconnect.com.br</p>
+          <p className="text-light m-0 mb-3">
+            <a
+              className="text-decoration-none text-reset"
+              href="mailto:contato@fenixconnect.com.br"
+              target="_blank"
+            >
+              contato@fenixconnect.com.br
+            </a>
+          </p>
         </div>
         `{/* Redes Sociais  */}`
         <div className="col-sm-3 m-1">
           <h5 className="text-light">Redes</h5>
-          <a href="https://www.instagram.com/">
+          <a href="https://www.instagram.com/" target="_blank">
             <i className="bi bi-instagram fs-2 m-2 colorOrange"></i>
           </a>
-          <a href="https://linkedin.com/">
+          <a href="https://linkedin.com/" target="_blank">
             <i className="bi bi-linkedin fs-2 m-2 colorOrange"></i>
           </a>
-          <a href="https://x.com/">
+          <a href="https://x.com/" target="_blank">
             <i className="bi bi-twitter-x fs-2 m-2 colorOrange"></i>
           </a>
         </div>
