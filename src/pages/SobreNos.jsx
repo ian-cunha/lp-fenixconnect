@@ -7,7 +7,6 @@ const SobreNos = () => {
       <NavBar />
       <div className="div_teste">
         <h2>Página Sobre Nós</h2>
-        <button className="btn btn-outline-danger">Enviar</button>
       </div>
       <Footer />
     </>
