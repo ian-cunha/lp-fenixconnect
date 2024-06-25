@@ -198,3 +198,11 @@ body {
   padding-right: 50px;
   padding-left: 50px;
 }
+
+.contato {
+  background-color: var(--orange) !important;
+  color: var(--white) !important;
+}
+.blockquote-footer {
+  color: var(--white) !important;
+}

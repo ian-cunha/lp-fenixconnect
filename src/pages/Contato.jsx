@@ -23,7 +23,7 @@ const Contato = () => {
 
                     <div className="row align-items-md-stretch">
                         <div className="col-md-6">
-                            <div className="h-100 p-4 text-bg-dark rounded-3">
+                            <div className="h-100 p-4 rounded-3 contato">
                                 <h2>Contato</h2>
                                 <p>
                                     Entre em contato agora mesmo, não exite em entrar em contato conosco. Acredito que nossa equipe tentará ao máximo lhe ajudar ou esclarecer algumas das suas dúvidas.
