@@ -37,6 +37,7 @@ const SobreNos = () => {
           </div>
 
           <p className="featurette-divider"></p>
+          <h2>Updates</h2>
 
           <div className="row featurette">
             <div className="col-md-7">
