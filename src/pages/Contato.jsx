@@ -82,7 +82,7 @@ const Contato = () => {
                                         ></textarea>
                                     </div>
                                     <div className="col-12">
-                                        <button type="submit" className="btn btn-primary">
+                                        <button type="submit" className="btn-orange">
                                             Enviar
                                         </button>
                                     </div>
