@@ -1,4 +1,6 @@
-![Logo do projeto](http://fenixconnect.com.br/docs/logo.png)
+<img src="./src/assets/logo.png" alt="Logo Fenix Connect" width="10%">
+
+<!-- ![Logo do projeto](./src/assets/logo.png)] -->
 
 # Fenix Connect- LP
 
@@ -23,4 +25,5 @@ Esse projeto está sob a licença (Instituto Fenix) - acesse os detalhes [LICENS
 
 * Grato por ter alcançado o sucesso na construção, agradeço a todos que contribuíram para tornar esse projeto uma realidade incrível!
 * Para suporte, mande um email para iancunha20@gmail.com.
+* Para comercial e comunicação, mande um e-mail para ascom@fenixpe.org.
 * Link para o seu linkedin [Meu linkedin](https://www.linkedin.com/in/iancunha/)

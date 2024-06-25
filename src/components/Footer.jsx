@@ -1,29 +1,48 @@
-import logo from '../assets/white-logo.svg'
-
+import logo from "../assets/white-logo.svg";
 
 const Footer = () => {
   return (
-    <div className='bg-dark p-2'>
+    <div className="bg-dark p-2">
       <div className="row justify-content-center text-center mt-4 mb-4">
+        `{/* Logo */}`
         <div className="col-sm-3 m-1">
-          <img src={logo} className='logoFooter' />
+          <a href="/">
+            <img src={logo} className="logoFooter" />
+          </a>
         </div>
+        `{/* Contatos */}`
         <div className="col-sm-3 m-1">
-          <h5 className='text-light'>Contatos</h5>
+          <h5 className="text-light">Contatos</h5>
           <p className="text-light m-0 mt-3">+55 (81) 98608-9100</p>
-          <p className="text-light m-0 mb-3">institutofenixpe@gmail.com</p>
+          <p className="text-light m-0 mb-3">
+            <a
+              className="text-decoration-none text-reset"
+              href="mailto:contato@fenixconnect.com.br"
+              target="_blank"
+            >
+              contato@fenixconnect.com.br
+            </a>
+          </p>
         </div>
+        `{/* Redes Sociais  */}`
         <div className="col-sm-3 m-1">
-          <h5 className='text-light'>Redes</h5>
-          <a href=''><i className="bi bi-instagram fs-2 m-2 colorOrange"></i></a>
-          <a href=''><i className="bi bi-linkedin fs-2 m-2 colorOrange"></i></a>
+          <h5 className="text-light">Redes</h5>
+          <a href="https://www.instagram.com/" target="_blank">
+            <i className="bi bi-instagram fs-2 m-2 colorOrange"></i>
+          </a>
+          <a href="https://linkedin.com/" target="_blank">
+            <i className="bi bi-linkedin fs-2 m-2 colorOrange"></i>
+          </a>
+          <a href="https://x.com/" target="_blank">
+            <i className="bi bi-twitter-x fs-2 m-2 colorOrange"></i>
+          </a>
         </div>
       </div>
       <div>
-        <p className='text-light text-center m-2'>@ 2024 Fenix Connect</p>
+        <p className="text-light text-center m-2">&copy;2024 Fenix Connect</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
