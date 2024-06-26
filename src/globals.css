@@ -214,3 +214,8 @@ body {
 .blockquote-footer {
   color: var(--white) !important;
 }
+
+
+.img-circle {
+  border-radius: 30px;
+}

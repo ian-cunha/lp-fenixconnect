@@ -43,7 +43,7 @@ const Contato = () => {
                         <div className="col-md-7 ">
                             <div className="h-100 p-4 border rounded-3 bg-gray">
                                 <h2>Dúvidas?</h2>
-                                <p>
+                                <p class="text-justify">
                                     Envie sua mensagem sobre qualquer dúvida ou assunto
                                     relacionado ao nosso app e responderemos o mais rápido
                                     possível.
