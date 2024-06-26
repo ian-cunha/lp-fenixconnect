@@ -100,13 +100,13 @@ const SobreNos = () => {
               <div id="carouselExampleAutoplaying" className="carousel slide rounded float-end" data-bs-ride="carousel">
                 <div className="carousel-inner">
                   <div className="carousel-item active">
-                    <img src={Equipe1} className="d-block w-100 rounded" alt="..." />
+                    <img src={Equipe1} className="d-block w-100 rounded" alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src={Robson} className="d-block w-100 rounded" alt="..." />
+                    <img src={Robson} className="d-block w-100 rounded" alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src={Ian} className="d-block w-100 rounded" alt="..." />
+                    <img src={Ian} className="d-block w-100 rounded" alt="..."/>
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
