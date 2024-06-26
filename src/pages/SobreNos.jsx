@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import Robson from "../assets/images/robson.jpg";
 import Ian from "../assets/images/ian.jpg"
-
+import Cicero from "../assets/images/cicero.jpeg"
 
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -16,11 +16,11 @@ const SobreNos = () => {
       <main class="div_teste">
 
         <div className="container marketing">
-          <h1>Equipe</h1>
+          <h1 className="p-3">Equipe</h1>
 
           <div className="row">
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-              <img src={Robson} width="140" height="140" className="rounded-circle "/>
+              <img src={Cicero} width="160" height="160" className="rounded-circle "/>
               <h2 className="fw-normal">Cicero Alves</h2>
               <p className="text-justify">And lastly this, the third column of representative placeholder content.</p>
               <div className="d-flex justify-content-center">
@@ -30,7 +30,7 @@ const SobreNos = () => {
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-              <img src={Robson} width="140" height="140" className="rounded-circle "/>
+              <img src={Robson} width="160" height="160" className="rounded-circle "/>
               <h2 className="fw-normal">Robson Thiago</h2>
               <p className="text-justify">And lastly this, the third column of representative placeholder content.</p>
               <div className="d-flex justify-content-center">
@@ -40,7 +40,7 @@ const SobreNos = () => {
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-              <img src={Ian} width="140" height="140" className="rounded-circle "/>
+              <img src={Ian} width="160" height="160" className="rounded-circle "/>
               <h2 className="fw-normal">Ian Cunha</h2>
               <p className="text-justify">And lastly this, the third column of representative placeholder content.</p>
               <div className="d-flex justify-content-center">
@@ -50,7 +50,7 @@ const SobreNos = () => {
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
-              <img src={Robson} width="140" height="140" className="rounded-circle "/>
+              <img src={Robson} width="160" height="160" className="rounded-circle "/>
               <h2 className="fw-normal">Anthony Silva</h2>
               <p className="text-justify">And lastly this, the third column of representative placeholder content.</p>
               <div className="d-flex justify-content-center">
