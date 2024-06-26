@@ -22,16 +22,16 @@ const Contato = () => {
                     </div>
 
                     <div className="row align-items-md-stretch">
-                        <div className="col-md-6">
+                        <div className="col-md-5 p-0">
                             <div className="h-100 p-4 rounded-3 contato">
                                 <h2>Contato</h2>
-                                <p>
+                                <p className="text-justify">
                                     Entre em contato agora mesmo, não exite em entrar em contato conosco. Acredito que nossa equipe tentará ao máximo lhe ajudar ou esclarecer algumas das suas dúvidas.
                                 </p>
                                 <br></br>
                                 <figure>
                                     <blockquote class="blockquote">
-                                        <p>"O importante é não parar de questionar. A curiosidade tem sua própria razão de existir."</p>
+                                        <p className="text-justify">"O importante é não parar de questionar. A curiosidade tem sua própria razão de existir."</p>
                                     </blockquote>
                                     <figcaption class="blockquote-footer">
                                         Sitação de <cite title="Source Title">Albert Einstein</cite>
@@ -40,8 +40,8 @@ const Contato = () => {
                             </div>
                         </div>
 
-                        <div className="col-md-6">
-                            <div className="h-100 p-4 bg-body-tertiary border rounded-3">
+                        <div className="col-md-7 ">
+                            <div className="h-100 p-4 border rounded-3 bg-gray">
                                 <h2>Dúvidas?</h2>
                                 <p>
                                     Envie sua mensagem sobre qualquer dúvida ou assunto
@@ -81,8 +81,8 @@ const Contato = () => {
                                             rows="5"
                                         ></textarea>
                                     </div>
-                                    <div className="col-12">
-                                        <button type="submit" className="btn btn-primary">
+                                    <div className="col-12 ">
+                                        <button type="submit" className="btn-orange">
                                             Enviar
                                         </button>
                                     </div>
