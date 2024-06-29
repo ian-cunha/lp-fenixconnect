@@ -1,4 +1,5 @@
 import logo from "../assets/white-logo.svg";
+import fenix from "../assets/images/institutoFenix-Logo.png";
 
 const Footer = () => {
   return (
@@ -8,6 +9,9 @@ const Footer = () => {
         <div className="col-sm-3 m-1">
           <a href="/">
             <img src={logo} className="logoFooter" />
+          </a>
+          <a href="https://fenixpe.org/" target="_blank">
+            <img src={fenix} className="logoFooter"  />
           </a>
         </div>
         `{/* Contatos */}`
