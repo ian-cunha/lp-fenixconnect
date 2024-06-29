@@ -6,6 +6,8 @@ import Cicero from "../assets/images/integrantes/cicero.jpeg";
 import Anthony from "../assets/images/integrantes/anthony.png";
 import Equipe1 from "../assets/images/equipe/equipe-1.jpg";
 import Equipe_Reportagem from "../assets/images/equipe/equipe-reportagem.jpg";
+import Equipe4 from "../assets/images/equipe/equipe-4.jpg";
+import Equipe5 from "../assets/images/equipe/equipe-5.jpg";
 
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -33,6 +35,7 @@ const SobreNos = () => {
                 <a href="https://www.instagram.com/ciceroalves_oficial/" target="_blank" className="p-1"><i class="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="#" target="_blank" className="p-1"><i class="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/cicero-alves-de-lima-junior-9265b3188/" target="_blank" className="p-1"><i class="bi bi-linkedin fs-2 colorOrange"></i></a>
+                <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
@@ -44,6 +47,7 @@ const SobreNos = () => {
                 <a href="https://www.instagram.com/_r0b14/" target="_blank" className="p-1"><i class="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/r0b14" target="_blank" className="p-1"><i class="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-linkedin fs-2 colorOrange"></i></a>
+                <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
@@ -55,6 +59,7 @@ const SobreNos = () => {
                 <a href="https://www.instagram.com/ian.pictures/" target="_blank" className="p-1"><i class="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/ian-cunha" target="_blank" className="p-1"><i class="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/iancunha/" target="_blank" className="p-1"><i class="bi bi-linkedin fs-2 colorOrange"></i></a>
+                <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
@@ -66,6 +71,7 @@ const SobreNos = () => {
                 <a href="https://www.instagram.com/putx_anthony?igsh=NXZoNWw3b3hsYTh2" target="_blank" className="p-1"><i class="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/Anthonylucass" target="_blank" className="p-1"><i class="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/anthony-lucas-025649221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="p-1"><i class="bi bi-linkedin fs-2 colorOrange"></i></a>
+                <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
           </div>
@@ -73,8 +79,8 @@ const SobreNos = () => {
           <div className="row featurette pt-2">
             <h2 className="display-6 fw-normal p-3">Quem somos</h2>
             <div className="col-md-7">
-              <h2 className="featurette-heading fw-normal lh-1">Transformar vidas é nossa prioridade. <span className="text-body-secondary">Focada em entregar de resultados</span></h2>
-              <p className="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+              <h2 className="featurette-heading fw-normal lh-1">Transformar vidas é nossa prioridade. <span className="text-body-secondary">Conectando você ao conhecimento que transforma sonhos em realidade.</span></h2>
+              <p className="lead text-justify">Nosso aplicativo de educação oferece recursos inovadores e acessíveis, permitindo que cada usuário alcance seu potencial máximo. Acreditamos que a educação é a chave para a mudança, e estamos comprometidos em fornecer ferramentas que empoderam e inspiram. Junte-se a nós e descubra como podemos ajudar a transformar sua vida através do aprendizado contínuo e significativo.</p>
             </div>
             <div className="col-md-5">
               <img src={Equipe_Reportagem} alt="Equipe Responsável" width="500" className="rounded float-end" />
@@ -83,8 +89,8 @@ const SobreNos = () => {
 
           <div className="row featurette pt-5">
             <div className="col-md-6 order-md-2">
-              <h2 className="featurette-heading fw-normal lh-1">Focada em resultados. <span className="text-body-secondary">See for yourself.</span></h2>
-              <p className="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+              <h2 className="featurette-heading fw-normal lh-1">Focada em resultados. <span className="text-body-secondary">Inove e Transforme.</span></h2>
+              <p className="lead text-justify">Nosso compromisso e dedicação resultaram em uma plataforma inovadora que impacta positivamente a vida de nossos usuários. Prova de que grandes mudanças podem surgir de pequenos começos. Acreditamos no poder da educação para transformar realidades e estamos aqui para fazer a diferença.</p>
             </div>
             <div className="col-md-6 order-md-1">
               <ReactPlayer url="https://www.youtube.com/embed/XP3dbk8BEAE?si=8NElKibCoxvn4V1f" className="float-home"/>
@@ -93,9 +99,10 @@ const SobreNos = () => {
 
           <div className="row featurette pt-5">
             <div className="col-md-8">
-              <h2 className="featurette-heading fw-normal lh-1">And lastly, this one. <span className="text-body-secondary">Checkmate.</span></h2>
-              <p className="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+              <h2 className="featurette-heading fw-normal lh-1">Equipe inclusa e diversa. <span className="text-body-secondary">Unidos pela força da pluralidade.</span></h2>
+              <p className="lead text-justify">Somos uma equipe inclusiva que não faz segregação de pessoas por cor ou sexo. Acreditamos que a diversidade é um pilar fundamental para o crescimento e inovação de nosso projeto. Cada voz e perspectiva única contribui para soluções mais criativas e eficazes. Juntos, estamos comprometidos em construir uma plataforma que reflete e serve a pluralidade da sociedade brasileira.</p>
             </div>
+      
             <div className="col-md-4">
               <div id="carouselExampleAutoplaying" className="carousel slide rounded float-end" data-bs-ride="carousel">
                 <div className="carousel-inner">
@@ -103,10 +110,10 @@ const SobreNos = () => {
                     <img src={Equipe1} className="d-block w-100 rounded" alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src={Robson} className="d-block w-100 rounded" alt="..."/>
+                    <img src={Equipe4} className="d-block w-100 rounded" alt="..."/>
                   </div>
                   <div className="carousel-item">
-                    <img src={Ian} className="d-block w-100 rounded" alt="..."/>
+                    <img src={Equipe5} className="d-block w-100 rounded" alt="..."/>
                   </div>
                 </div>
                 <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
