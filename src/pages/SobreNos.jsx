@@ -6,8 +6,8 @@ import Cicero from "../assets/images/integrantes/cicero.jpeg";
 import Anthony from "../assets/images/integrantes/anthony.png";
 import Equipe1 from "../assets/images/equipe/equipe-1.jpg";
 import Equipe_Reportagem from "../assets/images/equipe/equipe-reportagem.jpg";
-import Equipe4 from "../assets/images/equipe/equipe-4.jpg";
-import Equipe5 from "../assets/images/equipe/equipe-5.jpg";
+import Equipe4 from "../assets/images/equipe/Equipe-4.jpg";
+import Equipe5 from "../assets/images/equipe/Equipe-5.jpg";
 
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -47,7 +47,7 @@ const SobreNos = () => {
                 <a href="https://www.instagram.com/_r0b14/" target="_blank" className="p-1"><i class="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/r0b14" target="_blank" className="p-1"><i class="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-linkedin fs-2 colorOrange"></i></a>
-                <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
+                <a href="https://linktr.ee/_r0b14" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
