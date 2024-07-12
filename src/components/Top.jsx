@@ -3,7 +3,7 @@ import logo from '../assets/logo.svg'
 
 const Top = () => {
   return (
-    <div className="d-flex flex-sm-row flex-column align-items-center justify-content-center cont">
+    <div className="d-flex flex-sm-row flex-column align-items-center justify-content-center cont pt-5">
       <div className="top p-5 text-center text-md-start">
         <h4 className='m-0'>Conheça o</h4>
         <h1>Fenix Connect</h1>

@@ -3,6 +3,7 @@
   --red: #D52529;
   --white: white;
   --black: black;
+  --gray: #e4e4e4be;
 
   overflow-x: hidden;
 }
@@ -153,6 +154,13 @@ body {
   }
 }
 
+.text-justify {
+  text-align: justify;
+}
+
+.bg-gray {
+ background-color: var(--gray);
+}
 .logo {
   position: absolute;
   z-index: 0;
@@ -167,6 +175,8 @@ body {
   width: 50px;
   margin-top: 20px;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (max-width: 600px) {
@@ -205,4 +215,9 @@ body {
 }
 .blockquote-footer {
   color: var(--white) !important;
+}
+
+
+.img-circle {
+  border-radius: 30px;
 }
