@@ -35,7 +35,7 @@ const SobreNos = () => {
                 <a href="https://www.instagram.com/ciceroalves_oficial/" target="_blank" className="p-1"><i class="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="#" target="_blank" className="p-1"><i class="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/cicero-alves-de-lima-junior-9265b3188/" target="_blank" className="p-1"><i class="bi bi-linkedin fs-2 colorOrange"></i></a>
-                <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
+                <a href="#" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
@@ -59,7 +59,7 @@ const SobreNos = () => {
                 <a href="https://www.instagram.com/ian.pictures/" target="_blank" className="p-1"><i class="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/ian-cunha" target="_blank" className="p-1"><i class="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/iancunha/" target="_blank" className="p-1"><i class="bi bi-linkedin fs-2 colorOrange"></i></a>
-                <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
+                <a href="#" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
@@ -71,7 +71,7 @@ const SobreNos = () => {
                 <a href="https://www.instagram.com/putx_anthony?igsh=NXZoNWw3b3hsYTh2" target="_blank" className="p-1"><i class="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/Anthonylucass" target="_blank" className="p-1"><i class="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/anthony-lucas-025649221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="p-1"><i class="bi bi-linkedin fs-2 colorOrange"></i></a>
-                <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
+                <a href="#" className="p-1"><i class="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
           </div>
