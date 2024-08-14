@@ -31,7 +31,7 @@ const Contato = () => {
                                         <p className="text-justify">O importante é não parar de questionar. A curiosidade tem sua própria razão de existir.</p>
                                     </blockquote>
                                     <figcaption className="blockquote-footer">
-                                        Sitação de <cite title="Source Title">Albert Einstein</cite>
+                                        Citação de <cite title="Source Title">Albert Einstein</cite>
                                     </figcaption>
                                 </figure>
                             </div>
