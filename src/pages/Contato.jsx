@@ -1,9 +1,6 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-
 const Contato = () => {
     return (
         <>
@@ -22,7 +19,7 @@ const Contato = () => {
                     </div>
 
                     <div className="row align-items-md-stretch">
-                        <div className="col-md-5 p-0">
+                        <div className="col-md-5">
                             <div className="h-100 p-4 rounded-3 contato">
                                 <h2>Contato</h2>
                                 <p className="text-justify">
@@ -30,27 +27,27 @@ const Contato = () => {
                                 </p>
                                 <br></br>
                                 <figure>
-                                    <blockquote class="blockquote">
-                                        <p className="text-justify">"O importante é não parar de questionar. A curiosidade tem sua própria razão de existir."</p>
+                                    <blockquote className="blockquote">
+                                        <p className="text-justify">O importante é não parar de questionar. A curiosidade tem sua própria razão de existir.</p>
                                     </blockquote>
-                                    <figcaption class="blockquote-footer">
+                                    <figcaption className="blockquote-footer">
                                         Sitação de <cite title="Source Title">Albert Einstein</cite>
                                     </figcaption>
                                 </figure>
                             </div>
                         </div>
 
-                        <div className="col-md-7 ">
+                        <div className="col-md-7">
                             <div className="h-100 p-4 border rounded-3 bg-gray">
                                 <h2>Dúvidas?</h2>
-                                <p class="text-justify">
+                                <p className="text-justify">
                                     Envie sua mensagem sobre qualquer dúvida ou assunto
                                     relacionado ao nosso app e responderemos o mais rápido
                                     possível.
                                 </p>
                                 <form className="row g-2">
                                     <div>
-                                        <label for="inputNome" className="form-label">
+                                        <label htmlFor="inputNome" className="form-label">
                                             Nome
                                         </label>
                                         <input
@@ -61,7 +58,7 @@ const Contato = () => {
                                         ></input>
                                     </div>
                                     <div>
-                                        <label for="inputEmail" className="form-label">
+                                        <label htmlFor="inputEmail" className="form-label">
                                             Email
                                         </label>
                                         <input
@@ -72,11 +69,11 @@ const Contato = () => {
                                         ></input>
                                     </div>
                                     <div className="col-12">
-                                        <label for="inputAddress" className="form-label">
+                                        <label htmlFor="inputAddress" className="form-label">
                                             Qual é a sua mensagem?
                                         </label>
                                         <textarea
-                                            class="form-control"
+                                            className="form-control"
                                             id="exampleFormControlTextarea1"
                                             rows="5"
                                         ></textarea>

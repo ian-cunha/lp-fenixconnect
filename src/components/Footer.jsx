@@ -10,8 +10,8 @@ const Footer = () => {
           <a href="/">
             <img src={logo} className="logoFooter" />
           </a>
-          <a href="https://fenixpe.org/" target="_blank">
-            <img src={fenix} className="logoFooter"  />
+          <a href="https://fenixpe.org/" target="_blank" rel="noreferrer">
+            <img src={fenix} className="logoFooter" />
           </a>
         </div>
         `{/* Contatos */}`
@@ -22,7 +22,7 @@ const Footer = () => {
             <a
               className="text-decoration-none text-reset"
               href="mailto:contato@fenixconnect.com.br"
-              target="_blank"
+              target="_blank" rel="noreferrer"
             >
               contato@fenixconnect.com.br
             </a>
@@ -31,13 +31,13 @@ const Footer = () => {
         `{/* Redes Sociais  */}`
         <div className="col-sm-3 m-1">
           <h5 className="text-light">Redes</h5>
-          <a href="https://www.instagram.com/" target="_blank">
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
             <i className="bi bi-instagram fs-2 m-2 colorOrange"></i>
           </a>
-          <a href="https://linkedin.com/" target="_blank">
+          <a href="https://linkedin.com/" target="_blank" rel="noreferrer">
             <i className="bi bi-linkedin fs-2 m-2 colorOrange"></i>
           </a>
-          <a href="https://x.com/" target="_blank">
+          <a href="https://x.com/" target="_blank" rel="noreferrer">
             <i className="bi bi-twitter-x fs-2 m-2 colorOrange"></i>
           </a>
         </div>
