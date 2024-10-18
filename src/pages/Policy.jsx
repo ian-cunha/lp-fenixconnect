@@ -7,7 +7,7 @@ function Policy() {
       <NavBar />
       <div className="pattern">
         <h2>
-          <span>Política Privacidade</span>
+          <span>Política de Privacidade</span>
         </h2>
         <p>
           <span>A sua privacidade é importante para nós. É política do Fenix Connect respeitar
@@ -31,7 +31,7 @@ function Policy() {
         <p>
           <span>O nosso site pode ter links para sites externos que não são operados por nós.
             Esteja ciente de que não temos controle sobre o conteúdo e práticas desses sites e não podemos aceitar
-            responsabilidade por suas respectivas&nbsp;</span><a href="https://politicaprivacidade.com/" rel="noopener noreferrer" target="_blank">políticas de privacidade</a>
+            responsabilidade por suas respectivas&nbsp;</span>políticas de privacidade
           <span>.</span>
         </p>
         <p>
@@ -41,8 +41,7 @@ function Policy() {
         <p>
           <span>O uso continuado de nosso site será considerado como aceitação de nossas
             práticas em torno de privacidade e informações pessoais. Se você tiver alguma dúvida sobre como lidamos com
-            dados do
-            usuário e informações pessoais, entre em contacto connosco.</span>
+            dados do usuário e informações pessoais, entre em contacto connosco.</span>
         </p>
         <p>
           <span></span>
@@ -59,8 +58,8 @@ function Policy() {
             a
             à ordem pública;</span></li>
           <li><span>B - Não difundir propaganda ou conteúdo de natureza racista, xenofóbica,
-          </span><span> <a href='https://bbebbet.br.com'>bbebbet</a> </span><span
-          > ou azar, qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou
+          </span> <span>jogos de azar</span> <span
+          > ou qualquer tipo de pornografia ilegal, de apologia ao terrorismo ou
               contra
               os direitos humanos;</span></li>
           <li><span>C - Não causar danos aos sistemas físicos (hardwares) e lógicos (softwares)
@@ -77,9 +76,6 @@ function Policy() {
             algo que você não tem certeza se precisa ou não, geralmente é mais seguro deixar os cookies ativados, caso
             interaja
             com um dos recursos que você usa em nosso site.</span>
-        </p>
-        <p>
-          <span>Esta política é efetiva a partir de&nbsp;27 December 2023 22:56</span>
         </p>
       </div>
       <Footer />

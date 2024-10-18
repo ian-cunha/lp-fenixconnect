@@ -1,9 +1,9 @@
+import React, { useState, useEffect } from 'react';
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
 import emailjs from '@emailjs/browser';
 
 const Contato = () => {
-
     const sendEmail = (e) => {
         e.preventDefault();
 
@@ -16,6 +16,28 @@ const Contato = () => {
                 alert("Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente.");
             });
     };
+
+    const quotes = [
+        { text: "O importante é não parar de questionar. A curiosidade tem sua própria razão de existir.", author: "Albert Einstein" },
+        { text: "A única maneira de fazer um grande trabalho é amar o que você faz.", author: "Steve Jobs" },
+        { text: "A educação é a arma mais poderosa que você pode usar para mudar o mundo.", author: "Nelson Mandela" },
+        { text: "A vida é como uma câmera. Foco no que é importante, capture o que é bom e desenvolva o que foi aprendido.", author: "Autor Desconhecido" },
+        { text: "A simplicidade é a última sofisticação.", author: "Leonardo da Vinci" },
+    ];
+
+    const [currentQuoteIndex, setCurrentQuoteIndex] = useState(0);
+
+    useEffect(() => {
+        const changeQuote = () => {
+            setCurrentQuoteIndex(prevIndex => (prevIndex + 1) % quotes.length);
+        };
+    
+        const intervalId = setInterval(changeQuote, 5000);
+    
+        return () => clearInterval(intervalId);
+    }, []);
+
+    const currentQuote = quotes[currentQuoteIndex];
 
     return (
         <>
@@ -40,13 +62,13 @@ const Contato = () => {
                                 <p className="text-justify">
                                     Entre em contato agora mesmo, não exite em entrar em contato conosco. Acredito que nossa equipe tentará ao máximo lhe ajudar ou esclarecer algumas das suas dúvidas.
                                 </p>
-                                <br></br>
+                                <br />
                                 <figure>
                                     <blockquote className="blockquote">
-                                        <p className="text-justify">O importante é não parar de questionar. A curiosidade tem sua própria razão de existir.</p>
+                                        <p className="text-justify">{currentQuote.text}</p>
                                     </blockquote>
                                     <figcaption className="blockquote-footer">
-                                        Citação de <cite title="Source Title">Albert Einstein</cite>
+                                        Citação de <cite title="Source Title">{currentQuote.author}</cite>
                                     </figcaption>
                                 </figure>
                             </div>
