@@ -26,48 +26,39 @@ const SobreNos = () => {
               <img src={Cicero} width="160" height="160" className="rounded-circle " />
               <h2 className="fw-normal">Cicero Alves</h2>
               <h3 className="fw-normal h5">CEO, Idealizador</h3>
-              <p className="text-justify">_</p>
               <div className="d-flex justify-content-center">
                 <a href="https://www.instagram.com/ciceroalves_oficial/" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-instagram fs-2 colorOrange"></i></a>
-                <a href="#" target="_blank" className="p-1"><i className="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/cicero-alves-de-lima-junior-9265b3188/" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-linkedin fs-2 colorOrange"></i></a>
-                <a href="#" className="p-1"><i className="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
               <img src={Robson} width="160" height="160" className="rounded-circle " />
               <h2 className="fw-normal">Robson Thiago</h2>
               <h3 className="fw-normal h5">Leader, Frontend, Negócios</h3>
-              <p className="text-justify">_</p>
               <div className="d-flex justify-content-center">
                 <a href="https://www.instagram.com/_r0b14/" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/r0b14" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/r0b14/" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-linkedin fs-2 colorOrange"></i></a>
-                <a href="https://linktr.ee/_r0b14" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
               <img src={Ian} width="160" height="160" className="rounded-circle " />
               <h2 className="fw-normal">Ian Cunha</h2>
               <h3 className="fw-normal h5">Header Dev, Programador</h3>
-              <p className="text-justify">_</p>
               <div className="d-flex justify-content-center">
                 <a href="https://www.instagram.com/ian.pictures/" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/ian-cunha" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/iancunha/" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-linkedin fs-2 colorOrange"></i></a>
-                <a href="#" className="p-1"><i className="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
             <div className="col-lg-3 d-flex flex-column justify-content-center align-items-center">
               <img src={Anthony} width="160" height="160" className="rounded-circle " />
               <h2 className="fw-normal">Anthony Silva</h2>
               <h3 className="fw-normal h5">Frontend</h3>
-              <p className="text-justify">_</p>
               <div className="d-flex justify-content-center">
                 <a href="https://www.instagram.com/putx_anthony?igsh=NXZoNWw3b3hsYTh2" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-instagram fs-2 colorOrange"></i></a>
                 <a href="https://github.com/Anthonylucass" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-github fs-2 colorOrange"></i></a>
                 <a href="https://www.linkedin.com/in/anthony-lucas-025649221?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" className="p-1" rel="noreferrer"><i className="bi bi-linkedin fs-2 colorOrange"></i></a>
-                <a href="#" className="p-1"><i className="bi bi-file-earmark-person-fill fs-2 colorOrange"></i></a>
               </div>
             </div>
           </div>

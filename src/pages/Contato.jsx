@@ -1,7 +1,22 @@
 import Footer from "../components/Footer";
 import NavBar from "../components/NavBar";
+import emailjs from '@emailjs/browser';
 
 const Contato = () => {
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_mocofpo', 'template_h8d2pdd', e.target, '99Go4tBmzniX7Z7e9')
+            .then((result) => {
+                console.log(result.text);
+                alert("Mensagem enviada com sucesso!");
+            }, (error) => {
+                console.log(error.text);
+                alert("Ocorreu um erro ao enviar a mensagem. Por favor, tente novamente.");
+            });
+    };
+
     return (
         <>
             <header>
@@ -41,11 +56,9 @@ const Contato = () => {
                             <div className="h-100 p-4 border rounded-3 bg-gray">
                                 <h2>Dúvidas?</h2>
                                 <p className="text-justify">
-                                    Envie sua mensagem sobre qualquer dúvida ou assunto
-                                    relacionado ao nosso app e responderemos o mais rápido
-                                    possível.
+                                    Envie sua mensagem sobre qualquer dúvida ou assunto relacionado ao nosso app e responderemos o mais rápido possível.
                                 </p>
-                                <form className="row g-2">
+                                <form className="row g-2" onSubmit={sendEmail}>
                                     <div>
                                         <label htmlFor="inputNome" className="form-label">
                                             Nome
@@ -54,7 +67,9 @@ const Contato = () => {
                                             type="text"
                                             className="form-control"
                                             id="inputNome"
-                                            placeholder="Pedro Silva Bernado"
+                                            name="user_name"
+                                            placeholder="Digite seu nome completo"
+                                            required
                                         ></input>
                                     </div>
                                     <div>
@@ -65,7 +80,9 @@ const Contato = () => {
                                             type="email"
                                             className="form-control"
                                             id="inputEmail"
-                                            placeholder="Example@example.com"
+                                            name="user_email"
+                                            placeholder="Digite seu email"
+                                            required
                                         ></input>
                                     </div>
                                     <div className="col-12">
@@ -74,11 +91,14 @@ const Contato = () => {
                                         </label>
                                         <textarea
                                             className="form-control"
+                                            placeholder="Digite sua mensagem aqui"
                                             id="exampleFormControlTextarea1"
+                                            name="message"
                                             rows="5"
+                                            required
                                         ></textarea>
                                     </div>
-                                    <div className="col-12 ">
+                                    <div className="col-12">
                                         <button type="submit" className="btn-orange">
                                             Enviar
                                         </button>
